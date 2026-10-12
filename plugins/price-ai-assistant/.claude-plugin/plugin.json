@@ -1,5 +1,6 @@
 {
-  "name": "price-ai-assistant",
+  "name": "price-com",
+  "displayName": "Price.com",
   "version": "0.1.0",
   "description": "Search products, compare retailer prices, and find coupons, cashback offers, and restaurants through the Price.com MCP server.",
   "author": {
@@ -8,6 +9,8 @@
   },
   "homepage": "https://price.com/",
   "license": "MIT",
+  "icon": "assets/icon-512.png",
+  "privacyPolicyUrl": "https://price.com/privacy",
   "keywords": [
     "shopping",
     "prices",

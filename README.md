@@ -1,6 +1,6 @@
 # Price.com plugins for Claude
 
-This repository is a Claude plugin marketplace. It holds one plugin, **price-ai-assistant**. The plugin connects Claude to the Price AI Assistant MCP server (`https://ai.price.com/mcp`). It also includes a skill that tells Claude when and how to use it.
+This repository is a Claude plugin marketplace. It holds one plugin, **price-com** (Price.com). The plugin connects Claude to the Price AI Assistant MCP server (`https://ai.price.com/mcp`). It also includes a skill that tells Claude when and how to use it.
 
 With it, Claude can:
 - Search products and compare retailer prices
@@ -14,14 +14,14 @@ It returns shopping information and links only. It cannot place orders, check ou
 
 ```
 /plugin marketplace add jainwolverine/priceclaudeskill
-/plugin install price-ai-assistant@price-com
+/plugin install price-com@price-com
 ```
 
 Or from a shell:
 
 ```bash
 claude plugin marketplace add jainwolverine/priceclaudeskill
-claude plugin install price-ai-assistant@price-com
+claude plugin install price-com@price-com
 ```
 
 Then ask something like "Find wireless headphones under $100".

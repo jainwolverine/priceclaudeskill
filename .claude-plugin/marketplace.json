@@ -10,7 +10,7 @@
   },
   "plugins": [
     {
-      "name": "price-ai-assistant",
+      "name": "price-com",
       "source": "./plugins/price-ai-assistant",
       "description": "Search products, compare retailer prices, and find coupons, cashback offers, and restaurants through Price.com.",
       "version": "0.1.0",
