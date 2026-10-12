@@ -13,14 +13,14 @@ It returns shopping information and links only. It cannot place orders, check ou
 ## Install in Claude Code
 
 ```
-/plugin marketplace add price-com/claude-plugins
+/plugin marketplace add jainwolverine/priceclaudeskill
 /plugin install price-ai-assistant@price-com
 ```
 
 Or from a shell:
 
 ```bash
-claude plugin marketplace add price-com/claude-plugins
+claude plugin marketplace add jainwolverine/priceclaudeskill
 claude plugin install price-ai-assistant@price-com
 ```
 
@@ -29,7 +29,7 @@ Then ask something like "Find wireless headphones under $100".
 ## Use in Claude.ai, Claude Desktop, or mobile
 
 1. Go to **Customize → Connectors → Add custom connector**. Enter `https://ai.price.com/mcp`. No sign-in is needed.
-2. Optional: to add the skill, download `price-shopping.zip` from the releases. Then upload it under **Customize → Skills**.
+2. Optional: to add the skill, zip the `plugins/price-ai-assistant/skills/price-shopping` folder. Then upload the zip under **Customize → Skills**.
 
 ## Contents
 
